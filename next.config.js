@@ -42,6 +42,12 @@ const nextConfig = {
         port: '',
         pathname: '**',
       },
+      {
+        protocol: 'https',
+        hostname: 'kulachki-rawg-io.vercel.app',
+        port: '',
+        pathname: '**',
+      },
     ],
   },
   compiler: { styledComponents: true },
