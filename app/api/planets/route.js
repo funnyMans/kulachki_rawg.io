@@ -1,9 +1,7 @@
 import { NextResponse } from 'next/server';
 import { PlanetsServiceInstance } from '@/lib/db/service/PlanetsService';
-import dbConnect from '@/lib/db/dbConnect';
 
 export async function handler(req) {
-  await dbConnect();
   const { method } = req;
 
   switch (method) {
