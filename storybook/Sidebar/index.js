@@ -14,7 +14,7 @@ const Sidebar = () => {
     <SidebarSC>
       <ThemeSwitch />
       <h2>
-        <Link href='/planets'>Planents</Link>
+        <Link href='/planets'>Planets</Link>
       </h2>
       {sidebarGroupList.map((group) => (
         <SideBarGroup key={group.id} group={group} />
